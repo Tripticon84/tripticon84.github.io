@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&family=Ubuntu:wght@300;500;700&display=swap');
+
+
+:root {
+    --bg: rgb(10, 10, 11);
+    --entry: rgb(34, 34, 38);
+    --text: rgb(218, 218, 219);
+    --primary: rgb(155, 156, 157);
+    --tertiary: rgb(65, 66, 68);
+    --content: rgb(196, 196, 197);
+    --hljs-bg: rgb(46, 46, 51);
+    --code-bg: rgb(55, 56, 62);
+    --border: rgb(51, 51, 51);
+}
+
+body {
+    font-family: 'Ubuntu', 'Roboto', 'sans-serif';
+    background-color: var(--bg);
+    color: var(--primary);
+
+}
+
+
+ul {
+
+    list-style-type: none;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    text-align: center;
+
+    margin-top: 2%;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: rgb(54, 58, 60);
+    width: 30em;
+    padding-inline-start: 0px;
+    background-color: var(--entry);
+    
+}
+
+nav a {
+    /* Text */
+    color: var(--text);
+    font-size: 1.4em;
+    padding: 2%;;
+
+    width: max-content;
+    font-family:'Rubik', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+    cursor: pointer;
+	text-align: center;
+    box-sizing: content-box;
+    height: 100%;
+
+    transition: all .6s ease-out ;
+
+    /* Assets */
+/*    background-color: rgb(60, 66, 72);
+    border: 1px solid; 
+    border-color: var(--tertiary);
+    border-radius: 15px; */
+    z-index: 1;
+
+
+}
+
+ul a:hover,
+ul a:focus {
+    border-radius: 10px;
+    background-color: var(--text);
+    color: var(--entry);
+    
+}
+
+
+
+section {
+
+    display: flex;
+
+    padding: 0.5%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+
+    border: 2px solid;
+    border-radius: 15px;
+    border-color: rgb(54, 58, 60);
+
+    max-width: 90%;
+    height: 25em;
+    background-color: var(--entry);
+
+}
+aside {
+    text-align: justify;
+    font-size: 1.18em;
+
+    padding: 1%;
+    margin: 0;
+
+    border: 2px solid;
+    border-radius: 15px;
+    border-color: rgb(54, 58, 60);
+    max-width: 35%;
+    background-color: rgba(46, 50, 54, 0.842);
+
+}
+
+#desc {
+    margin: 1%;
+}
+
+#pp {
+    float: left;
+    border-radius: 20px;
+    margin-bottom: 1.5%;
+    margin-right: 1.5%;
+
+}
+
+
+.social
+{
+    width: 100px;
+
+}
+
