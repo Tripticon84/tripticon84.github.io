@@ -16,10 +16,14 @@
 body {
     font-family: 'Ubuntu', 'Roboto', 'sans-serif';
     background-color: var(--bg);
-    color: var(--primary);
+    color: var(--text);
 
 }
 
+a:-webkit-any-link {
+    color: var(--text);
+    cursor: pointer;
+}
 
 nav {
 
@@ -87,7 +91,7 @@ section {
     display: flex;
 
     padding: 0.5%;
-    margin-top: 5%;
+    margin-top: 3%;
     margin-left: auto;
     margin-right: auto;
 
@@ -96,16 +100,16 @@ section {
     border-color: rgb(54, 58, 60);
 
     max-width: 90%;
-    height: 25em;
+    height: 30em;
     background-color: var(--entry);
-
+    color: var(--primary);
 }
 aside {
     text-align: justify;
     font-size: 1.18em;
 
     padding: 1%;
-    margin: 0;
+
 
     border: 2px solid;
     border-radius: 15px;
@@ -128,9 +132,22 @@ aside {
 }
 
 
-.social
-{
-    width: 100px;
+#box_social {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+
+    margin-right: 1%;
 
 }
 
+
+
+.social
+{
+    width: 100px;
+    height: 100px;
+    padding: 5%;
+}
