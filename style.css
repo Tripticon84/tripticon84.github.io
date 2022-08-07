@@ -64,15 +64,7 @@ nav a {
     box-sizing: content-box;
     height: 100%;
 
-    transition: all .6s ease-out ;
-
-    /* Assets */
-/*    background-color: rgb(60, 66, 72);
-    border: 1px solid; 
-    border-color: var(--tertiary);
-    border-radius: 15px; */
-    z-index: 1;
-
+    transition: all .6s ease-out;
 
 }
 
@@ -152,3 +144,11 @@ aside {
     margin: 5%;
 }
 
+.social:hover {
+
+        animation: scale-up-center 0.4s ease-in-out forwards;
+}
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover,
+.grow:focus { transform: scale(1.15); }
