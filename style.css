@@ -9,7 +9,7 @@
     --content: rgb(196, 196, 197);
     --hljs-bg: rgb(46, 46, 51);
     --code-bg: rgb(55, 56, 62);
-    --border: rgb(51, 51, 51);
+    --border: rgb(54, 58, 60);
 }
 
 body {
@@ -40,7 +40,7 @@ nav {
     margin-right: auto;
     border: 2px solid;
     border-radius: 10px;
-    border-color: rgb(54, 58, 60);
+    border-color: var(--border);
     width: 30em;
     padding-inline-start: 0px;
     background-color: var(--entry);
@@ -48,7 +48,7 @@ nav {
 }
 
 nav a {
-    /* Text */
+
     color: var(--text);
     font-size: 1.4em;
     padding: 2%;;
@@ -88,7 +88,7 @@ section {
 
     border: 2px solid;
     border-radius: 15px;
-    border-color: rgb(54, 58, 60);
+    border-color: var(--border);
 
     max-width: 90%;
     height: 30em;
@@ -104,7 +104,7 @@ aside {
 
     border: 2px solid;
     border-radius: 15px;
-    border-color: rgb(54, 58, 60);
+    border-color: var(--border);
     max-width: 35%;
     background-color: rgba(46, 50, 54, 0.842);
 
