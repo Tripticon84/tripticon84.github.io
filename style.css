@@ -82,7 +82,7 @@ section {
     display: flex;
 
     padding: 0.5%;
-    margin-top: 3%;
+    margin-top: 10%;
     margin-left: auto;
     margin-right: auto;
 
@@ -90,7 +90,7 @@ section {
     border-radius: 15px;
     border-color: var(--border);
 
-    max-width: 90%;
+    width: 50%;
     height: 30em;
     background-color: var(--entry);
     color: var(--primary);
